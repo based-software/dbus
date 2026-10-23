@@ -115,7 +115,7 @@ def post_install_exe():
                       'should only contain one!'
                       .format(dbus_user, len(dbus_group_data.gr_mem)))
                 return
-            
+
             os.chown(exe_path, 0, dbus_user_data.pw_gid)
             os.chmod(exe_path, stat.S_ISUID | stat.S_IXUSR | stat.S_IXGRP)
         else:
