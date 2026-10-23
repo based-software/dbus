@@ -93,6 +93,9 @@ Bug fixes:
 • Avoid a rare assertion failure when waiting on a condition variable
   (dbus#556, Johan Bolmsjö)
 
+• Fix a memory leak during autolaunching if dbus-launch or launchctl fails
+  (dbus!560, Oleg Tsvetkov)
+
 • Correct commented-out default auth_timeout in system.conf
   (dbus!519, Simon McVittie)
 
@@ -112,6 +115,9 @@ Bug fixes:
 
 • Fix compiler warnings in dbus-send(1)
   (dbus!558, dbus!559; Simon McVittie)
+
+• Avoid using deprecated functions if compiled against Expat 2.9.0 or later
+  (dbus!561, Oleg Tsvetkov)
 
 • Update fallback subprojects for GLib and Expat
   (dbus!426, dbus!429; Simon McVittie)
