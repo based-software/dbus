@@ -39,16 +39,6 @@ see [Sending a merge request](#sending-a-merge-request] for details.
 The D-Bus mailing list is dbus@lists.freedesktop.org; discussion of
 protocol enhancements, new implementations, etc. should go there.
 
-## Code of Conduct
-
-As a freedesktop.org project, dbus follows the Contributor Covenant,
-found at: https://www.freedesktop.org/wiki/CodeOfConduct
-
-Please conduct yourself in a respectful and civilised manner when
-interacting with community members on mailing lists, IRC, or bug
-trackers. The community represents the project as a whole, and abusive
-or bullying behaviour is not tolerated by the project.
-
 ## Development
 
 D-Bus uses Git as its version control system. The main repository is
